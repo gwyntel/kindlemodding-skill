@@ -480,3 +480,13 @@ KOPlugins: copy into `/koreader/plugins` over USB, or AppStore KOPlugin (e.g. St
 Getting KOReader: reboot if just jailbroke; Wi-Fi on. `;kpm update` in searchbar. `;kpm install koreader`. Click booklet or `;kpm launch koreader`. Uninstall: `;kpm uninstall koreader`.
 
 KOReader launch options: "Start KOReader" (normal), "Start KOReader (no framework)" (kills Kindle UI for resources), "Start KOReader (ASAP)" (skips checks). KOReader lacks USBMS — only charges; exit KOReader for file transfer. KOReader doesn't read Amazon KFX/AZW3 (limited MOBI) — use EPUB. KOR booklet launcher (yparitcher): `https://github.com/yparitcher/KUAL_Booklet/releases/`. Mareks launcher/scriptlets: `https://scriptlets.notmarek.com/`. Check OTA status scriptlet: `https://scriptlets.notmarek.com/`.
+
+## Serial checker (serial_checker.py)
+
+Offline Python mirror of site jailbreak wizard. Serial -> model. Optional firmware -> jailbreak matches. No network, stdlib only, `screen()` importable.
+
+Serial parse (mirrors `getSerialInfo`): len 2/3 = whole serial is device code (version 0/1). Starts `G`: chars 3-5 = code, version 1. Starts 0-9/A-F: chars 2-3 = code, version 0. Else invalid. Uppercase, strip spaces.
+
+Usage: `python3 serial_checker.py SERIAL [FIRMWARE] [--blacklisted] [--ads] [--json]`. `--blacklisted` = can't register to Amazon (drops registration-required jailbreaks). `--ads` = lockscreen ads (AdBreak needs it). Exit 0 model found, 1 not.
+
+190 device codes, 28 models, 13 jailbreak rule sets embedded. Data snapshot 2026-09-25 from site source. Refresh: rerun models_json_generator.py + compose step.
