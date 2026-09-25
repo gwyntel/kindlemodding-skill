@@ -1,11 +1,6 @@
 ---
 name: kindlemodding
-author: gwyntel
-description: >-
-  Condensed Kindle-modding knowledge base — every jailbreak method by
-  model/firmware, post-jailbreak setup, firmware flashing/downgrading,
-  Mesquite/WAF APIs, ~100 LIPC services, homebrew dev docs.
-  Source: KindleModding wiki (kindlemodding.github.io).
+description: Condensed Kindle-modding knowledge base — every jailbreak method by model/firmware, post-jailbreak setup, firmware flashing/downgrading, Mesquite/WAF APIs, ~100 LIPC services, homebrew dev docs. Source: KindleModding wiki (kindlemodding.github.io).
 ---
 
 Kindle modding, compressed caveman-style. Every word earned. Facts from KindleModding community wiki: https://github.com/KindleModding/kindlemodding.github.io / https://kindlemodding.github.io. Unofficial condensation; not affiliated. License: CC BY-NC 4.0 (see LICENSE).
@@ -13,6 +8,7 @@ Kindle modding, compressed caveman-style. Every word earned. Facts from KindleMo
 ## When use
 
 - Jailbreaking a Kindle: pick method by model + firmware → read references/jailbreaks.md first.
+- Screening a serial number: identify model offline → run `serial_checker.py SERIAL [FIRMWARE]` (mirrors site wizard, no network).
 - Post-jailbreak: KUAL/MRPI, blocking OTA updates, backups → references/jailbreaks.md + references/faq.md.
 - Flashing/downgrading firmware → references/firmware.md.
 - Internals: debug searchbar commands, hotfix, appreg, boot process → references/hacking.md.
@@ -20,6 +16,10 @@ Kindle modding, compressed caveman-style. Every word earned. Facts from KindleMo
 - System services (LIPC `com.lab126.*`) → references/lipc.md.
 - Homebrew development: SDK, KPM packages, GTK, scriptlets, window manager → references/dev.md.
 - Quick questions after jailbreak (KOReader, recovery, OOBE) → references/faq.md.
+
+## Tools
+
+- serial_checker.py — offline Python mirror of jailbreak wizard: serial → model/variant, optional firmware → jailbreak matches. Stdlib only, no network. `screen()` importable. Data snapshot 2026-09-25.
 
 ## Reference files
 
