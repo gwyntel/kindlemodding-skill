@@ -1,6 +1,7 @@
 ---
 name: kindlemodding
-description: Condensed Kindle-modding knowledge base — every jailbreak method by model/firmware, post-jailbreak setup, firmware flashing/downgrading, Mesquite/WAF APIs, ~100 LIPC services, homebrew dev docs. Source: KindleModding wiki (kindlemodding.github.io).
+author: gwyntel
+description: "Condensed Kindle-modding knowledge base: every jailbreak method by model/firmware, post-jailbreak setup, firmware flashing/downgrading, Mesquite/WAF APIs, ~100 LIPC services, homebrew dev docs. Source: KindleModding wiki (kindlemodding.github.io)."
 ---
 
 Kindle modding, compressed caveman-style. Every word earned. Facts from KindleModding community wiki: https://github.com/KindleModding/kindlemodding.github.io / https://kindlemodding.github.io. Unofficial condensation; not affiliated. License: CC BY-NC 4.0 (see LICENSE).
