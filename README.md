@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/gwyntel/kindlemodding-skill)
+
 # kindlemodding skill
 
 Kindle modding knowledge base, condensed caveman-style from the KindleModding community wiki.
