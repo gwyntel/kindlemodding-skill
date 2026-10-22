@@ -6,6 +6,9 @@ description: "Condensed Kindle-modding knowledge base: every jailbreak method by
 
 Kindle modding, compressed caveman-style. Every word earned. Facts from KindleModding community wiki: https://github.com/KindleModding/kindlemodding.github.io / https://kindlemodding.github.io. Unofficial condensation; not affiliated. License: CC BY-NC 4.0 (see LICENSE).
 
+## Agent and path portability
+This is a reference skill, not a device-control integration. It requires only access to this installed skill's files; optional serial screening requires Python 3. All reference and script paths below are relative to the directory containing this `SKILL.md`, not the agent's working directory. Invoke the checker from that directory or provide its resolved path. Do not assume Hermes-only tools, paths, or device access. Modifying a Kindle is consequential: provide accurate cited steps, clearly distinguish model/firmware compatibility, and require explicit user intent before suggesting risky actions.
+
 ## When use
 
 - Jailbreaking a Kindle: pick method by model + firmware → read references/jailbreaks.md first.
