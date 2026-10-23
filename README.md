@@ -22,7 +22,7 @@ The canonical source is [gwyntel/kindlemodding-skill](https://github.com/gwyntel
 
 ## Use
 
-Ask your compatible agent about Kindle modding; the skill's `SKILL.md` routes the question to the relevant reference. For offline serial/model and optional firmware screening, run the Python 3, standard-library-only checker:
+Ask your compatible agent about Kindle modding; the skill's `SKILL.md` routes the question to the relevant reference. For offline serial/model and optional firmware screening, run the Python 3, standard-library-only checker from the installed skill directory (the directory containing `serial_checker.py`):
 
 ```sh
 python3 serial_checker.py SERIAL [FIRMWARE]
@@ -38,7 +38,7 @@ Update the installed skill with:
 npx skills update kindlemodding -g -y
 ```
 
-If your CLI version does not accept a named skill with `-g`, run `npx skills update -g -y` to update all globally installed skills. Without the CLI, manually clone or download this repository and copy its skill files into your agent’s skills directory; otherwise, rerun the install command above with the Vercel Skills CLI.
+If your CLI version does not accept a named skill with `-g`, run `npx skills update -g -y` to update all globally installed skills. To manually refresh the installed files without the CLI, download or clone this repository and replace the existing skill files in your agent’s skills directory.
 
 ## Troubleshooting
 
