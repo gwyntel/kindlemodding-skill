@@ -38,7 +38,7 @@ Update the installed skill with:
 npx skills update kindlemodding -g -y
 ```
 
-If your CLI version does not accept a named skill with `-g`, run `npx skills update -g -y` to update all globally installed skills. To get the current repository version, rerun the install command above with the Vercel Skills CLI.
+If your CLI version does not accept a named skill with `-g`, run `npx skills update -g -y` to update all globally installed skills. Without the CLI, manually clone or download this repository and copy its skill files into your agent’s skills directory; otherwise, rerun the install command above with the Vercel Skills CLI.
 
 ## Troubleshooting
 
